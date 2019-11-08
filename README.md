@@ -1,10 +1,17 @@
+<!--
+ * @Description: 
+ * @Author: my2zzh <leo@easestrategy.com>
+ * @Date: 2019-11-08 16:09:04
+ * @LastEditTime: 2019-11-08 16:11:45
+ * @LastEditors: my2zzh <leo@easestrategy.com>
+ -->
 # vue-cli-plugin-custom-tpl
 
 [Vue CLI 3.0](https://github.com/vuejs/vue-cli) 自定义模板插件
 
 ## 特性
 脚手架默认开启如下功能：
-- less处理器
+- scss
 - router
 - axios
 
@@ -20,7 +27,7 @@ vue create --preset natee/vue-cli-plugin-custom-tpl my-app
 {
   "useConfigFiles": true,
   "router": true,
-  "cssPreprocessor": "less",
+  "cssPreprocessor": "scss",
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {

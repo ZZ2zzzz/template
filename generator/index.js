@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: my2zzh <leo@easestrategy.com>
+ * @Date: 2019-11-08 16:09:04
+ * @LastEditTime: 2019-11-08 16:12:18
+ * @LastEditors: my2zzh <leo@easestrategy.com>
+ */
 function renderFiles (api, opts) {
 
   const fs = require('fs')
@@ -25,11 +32,11 @@ function renderFiles (api, opts) {
 
     api.render('./templates/base')
 
-    if (opts.router) {
-      // 替换掉路由文件
-      api.render('./templates/sp')
-    }else{
-    }
+    // if (opts.router) {
+    //   // 替换掉路由文件
+    //   api.render('./templates/sp')
+    // }else{
+    // }
 
   }
 }

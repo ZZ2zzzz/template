@@ -1,4 +1,11 @@
-<style lang="less">
+<!--
+ * @Description: 
+ * @Author: my2zzh <leo@easestrategy.com>
+ * @Date: 2019-11-08 16:09:04
+ * @LastEditTime: 2019-11-08 16:11:35
+ * @LastEditors: my2zzh <leo@easestrategy.com>
+ -->
+<style lang="scss">
 </style>
 
 <template>
